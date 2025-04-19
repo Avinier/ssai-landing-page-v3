@@ -192,3 +192,16 @@
 .animate-pulse-subtle {
   animation: pulse-subtle 2s infinite;
 }
+
+.typewriter-cursor {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 1s steps(1) infinite;
+  color: #254bf1; /* matches your primary color */
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}

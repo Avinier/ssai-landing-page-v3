@@ -1,0 +1,13 @@
+Tailwind CSS Configuration Summary:
+Dark mode is enabled via class. Content scanning targets JS/JSX/TS/TSX files within src/, src/app/, and src/components/.
+Theme extensions include custom fonts: sans (Geist), tiempos (serif), gotham (sans-serif), montserrat (sans-serif).
+There's an extensive custom color palette including primary (#254bf1), secondary (#ff3153), background (#fefdfa), grey (#1f2937), accent (#c1faff), UI element colors (card, popover, muted, destructive, border, input, ring, icon), named colors (lilac, portage, sulu, khaki, tacao, spray, purple), and nested colors for buttons and charts.
+Custom border radius sizes (sm to 2xl, full, none) and box shadow levels (sm to 2xl, inner, none) are defined with specific values.
+The spacing scale is heavily extended (0-96) and includes safe-area-inset values.
+Numerous custom animations and their keyframes are defined, including accordion, bounce, spring, slide, fade, pulse, shake, shimmer, and various color glow effects (yellow, green, red, lilac, portage, sulu, khaki, tacao, spray, purple, pink, orange) in standard and small variants.
+Custom transition properties (height, spacing, scale, spring) and timing functions (bounce, spring, out-spring, ease-out-back) are added.
+Screen breakpoints are: xs (375px), sm (640px), md (768px), lg (1024px), xl (1280px), 2xl (1536px).
+Container query breakpoints range from xs (20rem) to 2xl (42rem).
+Specific mobile font sizes (*-mobile) with line heights are included.
+Plugins used are tailwindcss-animate and @tailwindcss/container-queries.
+This configuration sets up a design system with specific typography, a rich color scheme, custom spacing, many animations (especially glows), and standard responsive/container approaches.
